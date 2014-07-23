@@ -1,0 +1,51 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,div.paragraph,blockquote,fieldset,input{ margin:0; padding:0; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margin:0; padding:0; }
+ ul{ list-style:none; }
+ fieldset{ border:0; }
+ a img{ border:0; }
+ .clear{ clear:both; }
+ body { background:transparent url( ../images/background.jpg) repeat-x center top; background-color:#f1f1f1; font-size:13px; color:#666; margin:0; padding:0; }
+ div.paragraph { line-height:170%; padding-bottom:12px; }
+ p { line-height:170%; padding-bottom:12px; }
+ h1 { font-family:georgia, "times new roman", serif; font-size:20px; font-weight:bold; color:#333; padding-bottom:12px; line-height:1.5; }
+ h2 { font-family:georgia, "times new roman", serif; font-size:18px; font-weight:bold; color:#333; padding-bottom:12px; line-height:1.5; }
+ #wrapper { width:960px; margin:0pt auto; }
+ #sitename { width:960px; font-size:30px; padding-top: 5px; height: 86px; }
+ #sitename, #sitename a { color:#333; font-weight:normal; }
+ #content-wrapper { float:left; width:960px; }
+ #contents-body { float:left; width:924px; font-family:georgia, "times new roman", serif; padding:19px 18px 10px 18px; background-color:#ffffff; }
+ *html #contents-body { float:left; width:930px; padding:10px 15px 10px 15px; background-color:#ffffff; }
+ #navigation { float:left; width:960px; height:41px; position:relative; padding-top:7px; margin-bottom:20px; font-size:14px; color:#e3e3e3; }
+ #navigation-links { float:left; padding:3px 0 0px 0px; }
+ #navigation-links li { float:left; display:inline; font-size:1em; padding:0px 35px 10px 0px; margin-right:5px; _margin-right:15px; _margin-left:0px; }
+ #navigation-links li.active a{ color:#89bfe7; text-align:center; }
+ #navigation-links a { color:#fff; text-decoration:none; }
+ #navigation-links a:hover { color:#89bfe7; text-decoration:none; }
+ #wsite-menus .wsite-menu-wrap { z-index: 5000; margin: 3px 0px 0px 0px; }
+ #wsite-menus .wsite-menu li a { color: #fff; background: #00214C; border-top: none; border-bottom: 1px solid #9C9897; border-left: none; border-right: none; }
+ #wsite-menus .wsite-menu li a:hover { color: #89bfe7; background: #0F315F; }
+ #active a:link { color:#89bfe7; text-decoration:none; }
+ #active a:hover { color:#89bfe7; text-decoration:none; }
+ #active a:visited { color:#89bfe7; text-decoration:none; }
+ a:link, a:hover, a:visited { color:#274e7a; font-weight:bold; text-decoration:none; }
+ #header-image { float:left; width:960px; height:250px; margin-bottom:30px; }
+ #image { background:transparent url(../images/cust_headerImg-100.jpg) no-repeat center top; width:960px; height:250px; }
+ #logo-image { width:80px; height:80px; }
+ #logo {background: transparent url(../images/swufe_logo-80-80.jpg) no-repeat center center; width: 80px; height: 80px;}
+
+ #contents { width:auto; min-height:400px; height:auto !important; height:400px; clear: left; }
+ #content { width:720px; float: left;}
+ #sidebar { width:160px; height: auto; float: right; }
+ #sidebar a:hover {background: #80CFFF;}
+
+ #contents-bottom { float:left; background:transparent url(../images/content_bottom.gif) no-repeat center top; width:960px; height:10px; }
+ #footer { float:left; width:960px; margin:20px 0 30px 0; }
+ #footer-contents { float:left; color:#666666; text-align:center; font-family:georgia, "times new roman", serif; font-size:12px; padding:7px 10px 0 0px; width:940px; height:28px; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 25px !important; margin: 5px 0 !important; overflow:hidden; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-description, .blog-sidebar div.paragraph, .blog-sidebar p, .wsite-form-field label, .wsite-form-field label {}
+#wsite-content h2, #wsite-content .product-title, .blog-sidebar h2{}
+#wsite-title{}
