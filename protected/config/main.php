@@ -57,10 +57,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=dep-mysql.swufe.edu.cn;dbname=oiecapp',
+			'connectionString' => 'mysql:host=192.168.81.4;dbname=test',
 			'emulatePrepare' => true,
-			'username' => 'oiecapp',
-			'password' => 'aNnG2SkxcDuf',
+			'username' => 'root',
+			'password' => 'root',
 			'charset' => 'utf8',
 		),
 		
